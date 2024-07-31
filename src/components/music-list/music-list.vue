@@ -43,7 +43,7 @@
         <slot name="listBtn"></slot>
       </div>
     </template>
-    <mm-no-result v-else title="弄啥呢，怎么啥也没有！！！" />
+    <mm-no-result v-else title="暂无数据" />
   </div>
 </template>
 
