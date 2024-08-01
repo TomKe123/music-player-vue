@@ -49,7 +49,7 @@ export default {
         document.title = '诶~ 别走啊！'
         clearTimeout(titleTime)
       } else {
-        document.title = '总算回来了'
+        document.title = '回来啦？'
         titleTime = setTimeout(function () {
           document.title = OriginTitile
         }, 2000)
